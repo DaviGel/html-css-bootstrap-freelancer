@@ -44,12 +44,6 @@
   padding: 4.0625rem;
 }
 
-@media screen and (min-width: 768px) {
-  .dg-container-225 {
-    margin: 0 14.0625rem;
-  }
-}
-
 /* #endregion */
 
 /* #region NAV */
@@ -76,9 +70,9 @@ main section:nth-child(odd) {
   background-color: #1abc9c;
 }
 
-main > section p {
+/* main > section p {
   padding: 0 6.875rem;
-}
+} */
 
 /* #endregion */
 
@@ -86,6 +80,17 @@ main > section p {
 
 footer .dg-footer-top {
   background-color: #3a546d;
+}
+
+/* #endregion */
+
+/* #region QUERIES */
+
+@media screen and (min-width: 768px) {
+  .dg-container-225 {
+    margin: 0 auto;
+    width: 60%;
+  }
 }
 
 /* #endregion */
