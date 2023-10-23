@@ -1,0 +1,85 @@
+/* #region UTILITIES */
+
+.dg-py15 {
+  padding: 0.9375rem 0;
+}
+
+.dg-py70 {
+  padding: 4.375rem 0;
+}
+
+.dg-px45 {
+  padding: 0 2.8125rem;
+}
+
+.dg-pt55 {
+  padding-top: 3.4375rem;
+}
+
+.dg-py40 {
+  padding: 2.5rem 0;
+}
+
+.dg-mt60 {
+  margin-top: 3.75rem;
+}
+
+.dg-pt90 {
+  padding-top: 5.625rem;
+}
+
+.dg-py110 {
+  padding: 6.875rem 0;
+}
+
+.dg-pb30 {
+  padding-bottom: 1.875rem;
+}
+
+.dg-py50 {
+  padding: 3.125rem 0;
+}
+
+.dg-py65 {
+  padding: 4.0625rem;
+}
+
+/* #endregion */
+
+/* #region NAV */
+
+nav,
+.dg-footer-bottom {
+  background-color: #2c3e50;
+  text-transform: uppercase;
+}
+
+nav ul {
+  margin-bottom: 0;
+}
+
+nav ul li {
+  margin-left: 1.875rem;
+}
+
+/* #endregion */
+
+/* #region MAIN */
+
+main section:nth-child(odd) {
+  background-color: #1abc9c;
+}
+
+main > section p {
+  padding: 0 6.875rem;
+}
+
+/* #endregion */
+
+/* #region FOOTER */
+
+footer .dg-footer-top {
+  background-color: #3a546d;
+}
+
+/* #endregion */
