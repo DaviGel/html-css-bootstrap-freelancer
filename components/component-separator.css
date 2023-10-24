@@ -1,0 +1,53 @@
+.dg-separator > * {
+  vertical-align: bottom;
+}
+
+.dg-separator i {
+  padding: 0 8px;
+}
+
+.dg-separator::before {
+  content: '';
+  width: 74px;
+  height: 4px;
+  background-color: currentColor;
+  display: inline-block;
+}
+
+.dg-separator::after {
+  content: '';
+  width: 74px;
+  height: 4px;
+  background-color: currentColor;
+  display: inline-block;
+}
+
+@media screen and (min-width: 576px) {
+  .dg-separator::before {
+    width: 8.8125rem;
+  }
+
+  .dg-separator::after {
+    content: '';
+    width: 8.8125rem;
+  }
+
+  .dg-separator i {
+    padding: 0 1.625rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dg-separator::before {
+    width: 10.6875rem;
+  }
+
+  .dg-separator::after {
+    content: '';
+    width: 10.6875rem;
+  }
+
+  .dg-separator i {
+    padding: 0 2.1875rem;
+  }
+}
