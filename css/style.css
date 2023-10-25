@@ -90,7 +90,7 @@ main section:nth-child(odd) {
 }
 
 main .dg-img-container {
-  max-width: 14.375rem;
+  max-width: 230px;
 }
 
 main .dg-separator {
@@ -136,7 +136,7 @@ footer .dg-background {
   .dg-container-225 {
     margin: 0 auto;
     width: 80%;
-    max-width: 75rem;
+    max-width: 1200px;
   }
 
   main input.dg-btn {
