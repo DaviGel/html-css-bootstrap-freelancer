@@ -1,5 +1,7 @@
-.dg-separator > * {
-  vertical-align: bottom;
+.dg-separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dg-separator i {
