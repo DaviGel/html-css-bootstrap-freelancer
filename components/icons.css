@@ -1,8 +1,9 @@
 .dg-circle-icon {
+  --size: 3.4375rem;
   display: inline-block;
-  width: 3.4375rem;
-  height: 3.4375rem;
-  line-height: 3.4375rem;
+  width: var(--size);
+  height: var(--size);
+  line-height: var(--size);
   color: currentColor;
   border: 1px solid currentColor;
   border-radius: 50%;
