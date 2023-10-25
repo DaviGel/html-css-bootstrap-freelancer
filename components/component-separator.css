@@ -8,20 +8,14 @@
   padding: 0 8px;
 }
 
-.dg-separator::before {
-  content: '';
-  width: 74px;
-  height: 4px;
-  background-color: currentColor;
-  display: inline-block;
-}
-
+.dg-separator::before,
 .dg-separator::after {
   content: '';
   width: 74px;
   height: 4px;
   background-color: currentColor;
   display: inline-block;
+  border-radius: 0.125rem;
 }
 
 @media screen and (min-width: 576px) {
