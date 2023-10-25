@@ -3,7 +3,7 @@
   display: inline-block;
   width: var(--size);
   height: var(--size);
-  line-height: var(--size);
+  line-height: calc(var(--size) - 2px);
   color: currentColor;
   border: 1px solid currentColor;
   border-radius: 50%;
