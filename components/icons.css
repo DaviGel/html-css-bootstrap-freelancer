@@ -7,7 +7,7 @@
   color: currentColor;
   border: 1px solid currentColor;
   border-radius: 50%;
-  font-size: 1.25rem;
+  font-size: calc(0.3 * var(--size));
   background-color: transparent;
   cursor: pointer;
 }
